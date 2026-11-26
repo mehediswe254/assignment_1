@@ -20,7 +20,7 @@
     
 }
 
-.btn{
+.btn,.first-btn{
     width: 154px;
     height: 44px;
     background-color: #30B868;
@@ -30,9 +30,10 @@
     font-weight: 600;
     line-height: auto;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-.btn:hover{
+.btn:hover,.first-btn:hover, .second-btn:hover{
     background-color: lightblue;
     color:#222;
     
@@ -53,6 +54,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.banner-content{
+    text-align: center;
+}
+
+.access{
+    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 8px 12px 8px 12px;
+    color: #30B868;
+    font-size: 16px;
+    margin: 0 auto 30px;
+    border-radius: 50px;
+    background-color: #E8F5EC;
+    
+    
+   
+    
 }
 
 .banner-content h1{
@@ -87,4 +110,10 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
+.second-btn{
+    cursor: pointer;
+}
+
+
 
